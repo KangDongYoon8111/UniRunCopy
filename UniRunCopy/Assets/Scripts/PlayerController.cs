@@ -36,8 +36,12 @@ public class PlayerController : MonoBehaviour
 
         // 마우스 왼쪽 버튼을 눌렀으며
         // && 최대 점프 횟수(2)에 도달하지 않았다면
-        if (Input.GetMouseButtonDown(1) && jumpCount < 2)
+        if (Input.GetMouseButtonDown(0) && jumpCount < 2)
         {
+            if(jumpCount == 1)
+            {
+                animator.SetBool("DJump", true);
+            }
             // 점프 횟수 증가
             jumpCount++;
             // 점프 직전에 속도를 순간적으로 제로(0,0)로 변경
@@ -99,6 +103,7 @@ public class PlayerController : MonoBehaviour
             // isGrounded를 true로 변경하고,
             // 누적 점프 횟수를 0으로 리셋
             isGrounded = true;
+            animator.SetBool("DJump", false);
             jumpCount = 0;
         }
     }
