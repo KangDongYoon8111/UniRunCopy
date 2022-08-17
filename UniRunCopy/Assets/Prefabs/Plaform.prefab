@@ -715,6 +715,7 @@ GameObject:
   - component: {fileID: 7377108529210729564}
   - component: {fileID: 3086520595382710686}
   - component: {fileID: 4557356189528622641}
+  - component: {fileID: 8461676555351709783}
   m_Layer: 0
   m_Name: Plaform
   m_TagString: Untagged
@@ -780,6 +781,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+--- !u!114 &8461676555351709783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4082369794730407120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 680a7ca5eea64464584fd2d5d3214aba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacles:
+  - {fileID: 6750008518030546219}
+  - {fileID: 5644523885891338959}
+  - {fileID: 3500127105479504217}
 --- !u!1 &4977143984351262658
 GameObject:
   m_ObjectHideFlags: 0
