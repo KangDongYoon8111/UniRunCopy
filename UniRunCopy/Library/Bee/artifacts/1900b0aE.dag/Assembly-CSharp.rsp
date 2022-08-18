@@ -378,6 +378,7 @@
 "Assets/Scripts/Dog.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/Platform.cs"
+"Assets/Scripts/PlatformSpawner.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/ScrollingObject.cs"
 "Assets/Scripts/Test01.cs"
